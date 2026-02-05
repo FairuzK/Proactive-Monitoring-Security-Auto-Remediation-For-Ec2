@@ -1,0 +1,2 @@
+# Proactive-Monitoring-Security-Auto-Remediation-For-Ec2
+A comprehensive monitoring and auto-remediation system using AWS CloudWatch, Lambda, and GuardDuty that automatically detects and responds to performance issues and security threats across development and production environments.
