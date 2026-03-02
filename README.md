@@ -38,5 +38,22 @@ As a Cloud Support Engineer, I configured a system that monitors EC2 instances, 
 <h3>Estimated Time & Cost 💰</h3>
 
 
-This project is estimated to take about 90-120 minutes
+This project is estimated to take about 90-120 minutes.
+
 Cost: Free (Using AWS Free Tier)
+
+
+<h3>Diagram</h3>
+<img width="1004" height="499" alt="monitoring project" src="https://github.com/user-attachments/assets/fbcf0cea-d40c-4417-aacd-a17578e6aca5" />
+
+<h3>Result</h3>
+A fully functional monitoring and auto-remediation system for CloudGuard that demonstrates:
+
+
+
+>Real-time detection of performance issues using custom CloudWatch metrics.
+
+>Threat detection with AWS GuardDuty.
+
+
+
