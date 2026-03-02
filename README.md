@@ -1,28 +1,27 @@
-# Proactive-Monitoring-Security-Auto-Remediation-For-Ec2
 
-**Overview of Project**
+<h1 align="center">* Project Overview *</h1>
 
-**Scenario**
+<h3>Scenario</h3>
 
 CloudGuard, a financial services company, recently experienced a security breach because its operations team didn't detect unusual system behavior until it was too late. The incident resulted in significant downtime and potential data exposure. Management has prioritized implementing proactive monitoring and automated remediation to prevent similar incidents.
 
 
-**Solution:**
+<h3>Solution 💡</h3>
 
 A comprehensive monitoring and auto-remediation system using AWS CloudWatch, Lambda, and GuardDuty that automatically detects and responds to performance issues and security threats across development and production environments.
 
-**About Project:**
+<h3>About Project:</h3>
 
 As a Cloud Support Engineer, I configured a system that monitors EC2 instances, triggers automated responses to performance issues, and detects security threats. You'll simulate real-world problems to test the system's effectiveness, then respond as a support engineer would in an actual incident. By the end, you'll have hands-on experience with AWS monitoring tools and security incident response—critical skills for cloud support professionals.
 
-**Steps to be performed **
+<h3>Steps to be performed </h3>
 
 1. Configure EC2 Environments (Dev and Prod)
 2. Implement Custom CloudWatch Monitoring
 3. Create Automated Remediation with Lambda
 4. Enable GuardDuty and Security Incident Response
 
-**Services Used 🛠**
+<h3>Services Used 🛠</h3>
 
 
 >**Amazon EC2:**  Virtual servers to simulate development and production environments.
@@ -36,7 +35,7 @@ As a Cloud Support Engineer, I configured a system that monitors EC2 instances, 
 >**AWS IAM:**  Identity and Access Management service for controlling permissions
 
 
-**Estimated Time & Cost ⚙️**
+<h3>Estimated Time & Cost 💰</h3>
 
 
 This project is estimated to take about 90-120 minutes
