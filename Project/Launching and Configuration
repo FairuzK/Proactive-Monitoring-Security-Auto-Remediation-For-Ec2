@@ -1,5 +1,0 @@
-# Why are we creating two separate environments?
-
-Creating distinct development and production environments mirrors real-world infrastructure setups, allowing for different security profiles and monitoring thresholds while providing a controlled way to simulate different types of issues.
-# Launching EC2 Instances:
-
