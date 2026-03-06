@@ -11,7 +11,8 @@ Creating distinct development and production environments mirrors real-world inf
      > Add additional tags> Add new tag> : Key= Environment, Value= Dev
      
      > Instance type: t2.micro
-
+     
+ ![image alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/6d2ee36a58b0260d0d450c36132bfaa05c2a4bc4/Screenshot%202026-03-06%20at%2009.37.32.png)
 
 4. Repeat to create the second instance:
    > Name: Prod-Server.
