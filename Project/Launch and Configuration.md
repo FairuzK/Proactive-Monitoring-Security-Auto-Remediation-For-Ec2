@@ -21,6 +21,8 @@ Creating distinct development and production environments mirrors real-world inf
    
    > Instance type: t2.micro
 
+ ![image alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/78dbbf2a12d910f7c48f5d51be6e83af1c2e53c1/Screenshot%202026-03-06%20at%2009.40.13.png)
+
 ### Expected outcome
 You'll have two operational servers representing separate environments that will be used throughout this project.
 ## Instance Configuration for Troubleshooting
