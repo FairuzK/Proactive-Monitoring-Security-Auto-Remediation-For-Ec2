@@ -15,5 +15,6 @@ The default EC2 metrics available in CloudWatch are limited to basic system metr
     ``` bash
      sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
    ```
-When you run this command, you'll go through an interactive configuration process:
+When you run this command, you'll go through an interactive configuration process and make sure the inputs **(on Default Choice)** are as follows:
 
+![Image ALt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/84ea6ff768ce5f4a601935c77610ab18502b75fa/Project/assets/cloudAgent.png)
