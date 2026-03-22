@@ -18,3 +18,19 @@ The default EC2 metrics available in CloudWatch are limited to basic system metr
 When you run this command, you'll go through an interactive configuration process and make sure the inputs **(on Default Choice)** are as follows:
 
 ![Image ALt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/84ea6ff768ce5f4a601935c77610ab18502b75fa/Project/assets/cloudAgent.png)
+![Image Alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/a039e6ec8ded347d2a3ead26a6e5a9baa5ae3dd5/Project/assets/cloudAgent2.png)
+![Image Alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/a039e6ec8ded347d2a3ead26a6e5a9baa5ae3dd5/Project/assets/cloudAgent3.png)
+![Image Alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/a039e6ec8ded347d2a3ead26a6e5a9baa5ae3dd5/Project/assets/cloudAgent4.png).
+
+After completing these steps, the wizard will create a configuration file at /opt/aws/amazon-cloudwatch-agent/bin/config.json. This file contains all your settings for metric collection.
+
+4. Start the CloudAgent
+5. Verify the agent is running.
+    ```bash
+   sudo systemctl status amazon-cloudwatch-agent
+    ```
+   **Expected outcome:** You should see "active (running)" in the output, confirming the agent is properly collecting and sending metrics to CloudWatch.
+6. Repeat steps 1-5 for the Production instance.
+
+**Why both instances?** We need monitoring on both environments to compare performance patterns and to ensure complete visibility across our infrastructure
+
