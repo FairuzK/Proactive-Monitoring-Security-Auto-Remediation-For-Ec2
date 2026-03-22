@@ -33,8 +33,11 @@ After completing these steps, the wizard will create a configuration file at /op
     ```bash
    sudo systemctl status amazon-cloudwatch-agent
     ```
+    ![Image Alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/990c1916e8f7df32f2b4a05d4228500729c5da97/Project/assets/cloudAgent6.png)
+
+
    **Expected outcome:** You should see "active (running)" in the output, confirming the agent is properly collecting and sending metrics to CloudWatch.
-6. Repeat steps 1-5 for the Production instance.
+7. Repeat steps 1-5 for the Production instance.
 
 **Why both instances?** We need monitoring on both environments to compare performance patterns and to ensure complete visibility across our infrastructure
 
