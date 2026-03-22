@@ -25,7 +25,10 @@ When you run this command, you'll go through an interactive configuration proces
 After completing these steps, the wizard will create a configuration file at /opt/aws/amazon-cloudwatch-agent/bin/config.json. This file contains all your metric-collection settings.
 
 4. Start the CloudAgent
-![Image Alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/a039e6ec8ded347d2a3ead26a6e5a9baa5ae3dd5/Project/assets/cloudAgent5.png).
+
+![Image Alt](https://github.com/FairuzK/Proactive-Monitoring-Security-Auto-Remediation-For-Ec2/blob/c5185d9d2ab029637703f2c4bd6cf648dd4b7808/Project/assets/cloudAgent5.png)
+
+
 5. Verify the agent is running.
     ```bash
    sudo systemctl status amazon-cloudwatch-agent
