@@ -53,7 +53,7 @@ A fully functional monitoring and auto-remediation system for CloudGuard that de
 
 >Real-time detection of performance issues using custom CloudWatch metrics.
 
->Threat detection with AWS GuardDuty.
+>Threat detection with AWS GuardDuty...
 
 
 
